@@ -20,8 +20,8 @@ def submit():
         body += f"{key}: {value}\\n"
     body += f"\\nIP Address: {ip}\\nUser-Agent: {user_agent}"
 
-    EMAIL = os.environ.get("akshitsrivastav95@gmail.com")
-    PASSWORD = os.environ.get("ookm etpx ztnc zcmz")
+    EMAIL = os.environ.get("EMAIL")
+    PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
     msg = EmailMessage()
     msg.set_content(body)
