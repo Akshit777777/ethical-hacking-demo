@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethical Hacking Demo</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input, textarea, button {
+      background-color: #1e1e1e;
+      color: #fff;
+      border: 1px solid #333;
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%%;
+    }
+    button {
+      cursor: pointer;
+      background-color: #0a84ff;
+      border: none;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #006edc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛡️ Ethical Hacking Awareness Demo</h1>
+  <p>This page shows what kind of data hackers can collect <strong>with your consent</strong>.</p>
+  <form id="dataForm">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <input type="text" name="phone" placeholder="Your Phone"><br>
+    <textarea name="message" placeholder="Optional Message..."></textarea><br>
+    <button type="submit">Submit & Analyze</button>
+  </form>
+  <script src="/static/script.js"></script>
+</body>
+</html>
